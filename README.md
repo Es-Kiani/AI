@@ -1,2 +1,2 @@
-# AI-ML
-Artificial Intelligent and Machine Learning
+# AI
+All of my AI projects, include my personal passion projects, practical projects and some others together. 
