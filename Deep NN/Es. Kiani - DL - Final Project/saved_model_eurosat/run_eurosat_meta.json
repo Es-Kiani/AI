@@ -1,0 +1,42 @@
+{
+  "seed": 13,
+  "image_size": 64,
+  "epochs": 70,
+  "base_lr": 0.001,
+  "batch_size": 500,
+  "num_workers": 8,
+  "scheduler": "cosine",
+  "scheduler_params": {
+    "cosine_Tmax": 70,
+    "plateau_patience": 5,
+    "plateau_factor": 0.5,
+    "plateau_min_lr": 1e-05
+  },
+  "use_adv_aug": true,
+  "aug_intensity": "medium",
+  "train_mean": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "train_std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "num_classes": null,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "best_val_acc": 67.84761904761905,
+  "best_model_path": "C:\\Users\\Stephen\\Code\\University\\saved_model_eurosat\\best_improved_model_eurosat_v2.pkl"
+}
